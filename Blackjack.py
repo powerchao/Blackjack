@@ -45,11 +45,8 @@ def blackjack():
                 output_string += ", "
         output_string += "]"
         return output_string
-
-    continuing = True
-    while continuing:
-        #os.system("cls")
-        print("Welcome to Blackjack!")
+        os.system("cls")
+        print("Let's play a hand.")
         dealer_hand = []
         player_hand = []
         draw_card(dealer_hand,2)
